@@ -137,6 +137,7 @@ public class BankAccountFrame extends JFrame implements ActionListener {
 	public static void main(String[] args) {
 		BankAccountFrame frame = new BankAccountFrame();
 		
+		frame.setTitle("Bank Account");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.pack();
 		frame.setVisible(true);
